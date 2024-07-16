@@ -1,0 +1,54 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Deals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "deal_tier",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "num_redemptions",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "ExpiredDeals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "business_name",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "end_moment",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "Zipcodes",
+      "fieldPath": "Users",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "COLLECTION_GROUP"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "RedemptionHistory",
+      "fieldPath": "Users",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "COLLECTION_GROUP"
+        }
+      ]
+    }
+  ]
+}

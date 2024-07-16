@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "316792930526",
+    "project_id": "redemlypagebypage",
+    "storage_bucket": "redemlypagebypage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316792930526:android:45522fbc6bafbbe365c24f",
+        "android_client_info": {
+          "package_name": "com.mycompany.redemlypagebypage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMYzWfp3B84NO--OkB8mRwk6PQdeasjWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
